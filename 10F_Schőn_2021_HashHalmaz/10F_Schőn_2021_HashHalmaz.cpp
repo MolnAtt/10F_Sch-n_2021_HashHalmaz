@@ -105,4 +105,8 @@ int main()
 	halmaz.Add(43);
 	halmaz.diagnosztika();
 
+	cout << halmaz.contains(33) << endl;
+	cout << halmaz.contains(43) << endl;
+	cout << halmaz.contains(5) << endl;
+
 }
